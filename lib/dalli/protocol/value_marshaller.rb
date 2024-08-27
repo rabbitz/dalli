@@ -14,7 +14,7 @@ module Dalli
 
       DEFAULTS = {
         # max size of value in bytes (default is 1 MB, can be overriden with "memcached -I <size>")
-        value_max_bytes: 1024 * 1024
+        value_max_bytes: 1024 * 1024 * 10
       }.freeze
 
       OPTIONS = DEFAULTS.keys.freeze
